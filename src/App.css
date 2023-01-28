@@ -1,1 +1,92 @@
+/* Background */
+.background-wrapper {
+  position: absolute;
+  width: 100%;
+  height: 1300px;
+  background: linear-gradient(180deg, #322d6d 6.33%, #663182 39.13%);
+  text-align: center;
+  overflow: hidden;
+}
 
+.wave {
+  position: absolute;
+  width: 100%;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  @media (max-width: 1440px) {
+    background-size: 1440px;
+  }
+}
+
+.wave1 {
+  top: 190px;
+  height: 446px;
+  background-image: url('./images/mountain1.svg');
+}
+
+.wave2 {
+  top: 160px;
+  height: 464px;
+  background-image: url('./images/mountain2.svg');
+}
+
+.wave3 {
+  top: 347px;
+  height: 408px;
+  background-image: url('./images/mountain3.svg');
+}
+
+.wave4 {
+  top: 466px;
+  height: 457px;
+  background-image: url('./images/mountain4.svg');
+}
+
+.wave5 {
+  top: 450px;
+  height: 867px;
+  background-image: url('./images/mountain5.svg');
+}
+
+.wave6 {
+  top: 700px;
+  height: 630px;
+  background-image: url('./images/hero-wave.svg');
+}
+
+.blur-layer {
+  top: 100px;
+  height: 1503px;
+  background-image: url('./images/blur-layer.webp');
+}
+
+/* Hero */
+
+.hero-wrapper {
+  position: relative;
+  max-width: 380px;
+  display: grid;
+  gap: 20px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 140px 20px 100px;
+}
+
+.title {
+  color: rgba(255, 255, 255, 1);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.description {
+  max-width: 240px;
+  color: rgba(255, 255, 255, 0.7);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 130%;
+  margin: 0 auto;
+}

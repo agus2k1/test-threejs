@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
 
-export default function Background() {
+const Background = () => {
   return (
     <div className="background-wrapper">
       <div className="wave wave1"></div>
@@ -13,4 +13,6 @@ export default function Background() {
       <div className="wave wave6"></div>
     </div>
   );
-}
+};
+
+export default Background;

@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
 
-export default function TextSection() {
+const TextSection = () => {
   return (
     <div className="hero-wrapper">
       <h1 className="title">Three.js in React</h1>
@@ -10,4 +10,6 @@ export default function TextSection() {
       </p>
     </div>
   );
-}
+};
+
+export default TextSection;
